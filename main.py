@@ -10,7 +10,6 @@ cl = Client()
 SESSION_FILE = "instagram_session.json"
 
 def login():
-    """Secure login with 2FA and challenge support."""
     username = input("Enter your Instagram username: ")
     password = input("Enter your password: ")
     
